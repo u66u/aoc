@@ -25,9 +25,9 @@ def p1(inp: list) -> int:
         y1, y2 = int(yr[0]), int(yr[1])
         z1, z2 = int(zr[0]), int(zr[1])
 
-        x1, x2 = max(-50, x1), min(50, x2)
-        y1, y2 = max(-50, y1), min(50, y2)
-        z1, z2 = max(-50, z1), min(50, z2)
+        # x1, x2 = max(-50, x1), min(50, x2)
+        # y1, y2 = max(-50, y1), min(50, y2)
+        # z1, z2 = max(-50, z1), min(50, z2)
 
         if x1 > x2 or y1 > y2 or z1 > z2:
             continue
